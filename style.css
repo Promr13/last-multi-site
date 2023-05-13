@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+}
+h1{
+    font-size: 30px;
+    color:lightslategray;
+    text-align: center;
+    position: relative;
+    top: 20px
+}
+span{
+    background-image: linear-gradient(to top, wheat,white, whitesmoke);
+    border-radius: 20px;
+    padding: 10px;
+}
+span:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+body{
+    background-color: lightgrey;
+}
+img{
+    height: 87px;
+    width: 110px;
+    position: relative;
+    bottom: 70px;
+    left: 600px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    background-image: linear-gradient(to right, lightslategray, grey, darkgrey);
+    border-radius: 15px;
+    position: relative;
+    left: 20px;
+    bottom: 70px;
+    padding: 10px;
+    margin: 10px;
+    color:white;
+}
+h2{
+    position: relative;
+    bottom: 70px;
+}
+a:hover{
+    color: black;
+    position: relative;
+    background-image: linear-gradient(to bottom, lightyellow, lightgreen, lightblue);
+    box-shadow:  0 10px 5px 0 lightblue, 0 20px 5px 0 mediumaquamarine;
+    transition: 0.5s linear;
+
+}
+
+.icon:hover{
+    transform: translateY(900px) translateX(700px);
+    transition: 3s ease-in;
+}
+span:hover{
+    box-shadow: 25px 35px 0 0 grey;
+    transition: 5s linear;
+}
+label{
+    position: relative;
+    left: 1150px;
+    bottom: 100px;
+}
+.image{
+    width: 620;
+    height: 400px;
+    position:absolute;
+    left: 400px;
+    bottom: 250px;
+    border: 5px solid lightslategray;
+}
+.image:hover{
+    box-shadow: 13px 15px 10px 0 black;
+}
