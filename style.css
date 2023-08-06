@@ -52,6 +52,11 @@ a:hover{
     transition: 0.5s linear;
 
 }
+
+.icon:hover{
+    transform: translateY(900px) translateX(700px);
+    transition: 3s ease-in;
+}
 span:hover{
     box-shadow: 25px 35px 0 0 grey;
     transition: 5s linear;
@@ -66,7 +71,7 @@ label{
     height: 400px;
     position:absolute;
     left: 400px;
-    bottom: 500px;
+    bottom: 300px;
     border: 5px solid lightslategray;
 }
 .image:hover{
